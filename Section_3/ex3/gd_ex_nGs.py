@@ -1,3 +1,7 @@
+####script to optimize a design optimization problem with a spring system subproblem.
+####the spring subproblem is solved via a simulation method implemented in Springclass, which
+####    also computes the necessary sensitivities for the derivative of the design objectove function.
+
 import numpy as np
 import os
 import datetime

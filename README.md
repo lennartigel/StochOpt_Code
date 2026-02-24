@@ -12,9 +12,9 @@ Install the included conda enviroment from the provided yaml file. Install it wi
 Now coordinate to the directory of the example which you want to run/test/plot data from. Read the included readme file in the folder to familiarize what the code in the directory does, what parameters are available to change, what data is generated, etc. 
 Specify your desired parameters in the code file. Run it from the shell or whichever execution method you like. 
 
-## Licence
+## License / Permission of use
 
-Creative Commons Attribution 4.0 International
+The code is provided as-is without any warranty for its correctness under the MIT license (see LICENSE file)
 
 ## Contact
 

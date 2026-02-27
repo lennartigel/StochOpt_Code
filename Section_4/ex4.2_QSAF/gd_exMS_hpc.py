@@ -597,7 +597,7 @@ def run_fun(run_number):
             os.makedirs(pathing)
 
         ### starting point (random or deterministic, you choice)
-        xstart = np.random.rand(2)*1.9 + 0.1
+        xstart = np.random.rand(2)*1.8 + 0.2
         print('------------------- Iteration %i -------------------'%i, xstart)
 
         npop_stoch = 10### for adaptively smoothing method

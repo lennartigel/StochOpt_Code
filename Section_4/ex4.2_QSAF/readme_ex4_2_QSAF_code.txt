@@ -103,7 +103,7 @@ Additionally, if inhom_material= true and compute_mat_der = true, then the follo
 ---
 
 ## 2. gd_exMS_hpc.py -*hpc*-
-Performs optimization runs from random starting points in the domain "[0.1,2]^2" on an objective with a spring problem as underlying state problem to be solved. 
+Performs optimization runs from random starting points in the domain "[0.2,2]^2" on an objective with a spring problem as underlying state problem to be solved. 
 The state problem is solved by the script in Springclass_hpc_AS.py . 
 Includes the class GradientDescent, which implements the ASM or GSM depending on input. 
 For construction it requires the following parameters:

@@ -27,8 +27,7 @@ if do_work:
     Fsol3_store_full = np.zeros((iter_max*multi,max_try))
     x3_store_full = np.zeros((iter_max*multi,max_try))
     
-    for i in range(max_tried):
-        k = i
+    for k in range(max_tried):
         filename_hybrid = pathing +'/Run_'+ str(k) + 'Vals_hybrid.npy'
         f_hyb = np.load(filename_hybrid)
         x3_store_full[:,i] = f_hyb['x3_store'][:,k]
